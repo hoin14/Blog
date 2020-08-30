@@ -2,27 +2,11 @@
 layout: post
 title:  "Git hub 블로그 첫 포스트"
 date:   2020-08-30 11:59:13 +0800
-categories: default
-tags: test
+categories: Git
+tags: git
 ---
-I have some text.
-
-I want some _italics_.
-
-I want some **bold**.
-
-# this is heading 1
-
-## this is heading 2
-
-### this is heading 3
-
-you want a list?
-* first
-* second
-* third
-
-you want an ordered list?
-1. whatever
-1. whatever
-1. whatever
+깃블로그를 처음 써본다.
+오늘은 2020년 8월 30일 일요일.
+안나는 지금 원피스를 보고 있다. 바보?ㅋㅋ
+오빠는 지금 깃블로그를 쓰고 있다. 천재?ㅋㅋ
+안뇽 뿅뿅뿅
