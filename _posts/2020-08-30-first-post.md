@@ -12,10 +12,10 @@ tags: git
 오빠는 지금 깃블로그를 쓰고 있다. 천재?ㅋㅋ<br>
 안뇽 뿅뿅뿅<br>
 
-''''java
+```java
 // TEST 클래스
 public class Test {
-      //클래스 필드
+    //클래스 필드
     public static int ONE       = 1;
     public static String TWO    = "TWO";
     public static String FOUR;
@@ -28,5 +28,26 @@ public class Test {
         FOUR = "안녕하세요";
     }
     
+    //인스턴스 필드
+    private int three;
+    
+    public Test( int three ) {
+        this.three = three;
+    }
+    
+    // 클래스 메서드
+    public static int sum( int a , int b ) {
+        return a + b;
+    }
+    
+    //인스턴스 메서드
+    public int multiply( int a, int b ) {
+        return a*b;
+    }
+
+    public int getThree() {
+        return three;
+    }
 }
-''''
+
+````
