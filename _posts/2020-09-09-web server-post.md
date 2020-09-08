@@ -12,6 +12,7 @@ tags: web
 
 <h2 id="static-pages와-dynamic-pages">Static Pages와 Dynamic Pages</h2>
 <p><img src="./images/web/static-vs-dynamic.png" alt="" /></p>
+<img src="/images/web/static-vs-dynamic.png" width="40%" height="30%" title="30px" alt=""></img><br>
 <ol>
   <li>Static Pages
     <ul>
