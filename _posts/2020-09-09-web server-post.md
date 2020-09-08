@@ -10,18 +10,18 @@ tags: web
 <strong>Web Server와 WAS 무엇이 다른가?</strong><br>
 
 
-<h2 id="static-pages와-dynamic-pages">Static Pages와 Dynamic Pages</h2>
-<p><img class="dynamic" src="/images/web/static-vs-dynamic.png"></p>
+<h2 id="static-pages와-dynamic-pages">정적페이지와 동적페이지</h2>
+<img src="/images/web/static-vs-dynamic.png" width="450px" height="300px" title="50px" alt="RubberDuck"></img><br/>
 
 <ol>
-  <li>Static Pages
+  <li>정적페이지
     <ul>
       <li>Web Server는 파일 경로 이름을 받아 경로와 일치하는 file contents를 반환한다.</li>
       <li>항상 동일한 페이지를 반환한다.</li>
       <li>Ex) image, html, css, javascript 파일과 같이 컴퓨터에 저장되어 있는 파일들</li>
     </ul>
   </li>
-  <li>Dynamic Pages
+  <li>동적페이지
     <ul>
       <li>인자의 내용에 맞게 동적인 contents를 반환한다.</li>
     </ul>
