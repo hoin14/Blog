@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Git hub 블로그 첫 포스트"
+title:  "[Git] 블로그 첫 포스트"
 date:   2020-08-30 11:59:13 +0800
 categories: Git
 tags: git

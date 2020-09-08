@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "오라클 권한관리"
+title:  "[Oracle] 권한관리"
 date:   2020-09-05 02:59:13 +0800
 categories: DB
 tags: db

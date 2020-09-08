@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "오라클 Synonym"
+title:  "[Oracle] Synonym"
 date:   2020-09-02 02:59:13 +0800
 categories: DB
 tags: db
