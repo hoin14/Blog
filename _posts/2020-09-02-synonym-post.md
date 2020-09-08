@@ -2,7 +2,7 @@
 layout: post
 title:  "[Oracle] Synonym"
 date:   2020-09-02 02:59:13 +0800
-categories: DB
+categories: Db
 tags: db
 ---
 <p>
