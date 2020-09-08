@@ -2,7 +2,7 @@
 layout: post
 title:  "[Web] Web Server와 WAS"
 date:   2020-09-09 02:59:13 +0800
-categories: WEB
+categories: Web
 tags: web
 ---
 
@@ -11,7 +11,7 @@ tags: web
 
 
 <h2 id="static-pages와-dynamic-pages">정적페이지와 동적페이지</h2>
-<img src="/images/web/static-vs-dynamic.png" width="450px" height="300px" title="50px" alt="RubberDuck"></img><br/>
+<img src="/images/web/static-vs-dynamic.png" width="450px" height="300px" title="50px" alt="RubberDuck"></img>
 
 <ol>
   <li>정적페이지
