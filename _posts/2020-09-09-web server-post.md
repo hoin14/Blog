@@ -11,7 +11,7 @@ tags: web
 
 
 <h2 id="static-pages와-dynamic-pages">정적페이지와 동적페이지</h2>
-<img src="/images/web/static-vs-dynamic.png" alt="">
+<img src="/images/web/static-vs-dynamic.png" width="40%" height="30%" alt="">
 
 <ol>
   <li>정적페이지
@@ -34,7 +34,7 @@ tags: web
 </ol>
 
 <h2 id="web-server와-was의-차이">Web Server와 WAS의 차이</h2>
-<p><img src="/images/web/webserver-vs-was1.png" alt="" /></p>
+<p><img src="/images/web/webserver-vs-was1.png" width="40%" height="30%" alt="" /></p>
 <h3 id="web-server">Web Server</h3>
 <ul>
   <li>Web Server의 개념
