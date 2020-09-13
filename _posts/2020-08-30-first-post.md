@@ -21,9 +21,9 @@ tags: git
 ###### Git 에러 CRLF will be replaced by LF (혹은 반대) 핸들링
 [에러핸들링](https://blog.jaeyoon.io/2018/01/git-crlf.html)<br>
 
-
+유닉스 시스템에서는 한 줄의 끝이 LF(Line Feed)로 이루어지는 반면, 윈도우에서는 줄 하나가 CR(Carriage Return)와 LF(Line Feed), 즉 CRLF로 이루어지기 때문이다. 따라서 어느 한 쪽을 선택할지 Git에게 혼란이 와 에러가 발생한다.<br>
 ```
-git config -—global core.autocrlf true
+git config -—global core.autocrlf true (input)
 git add .
 git commit -m "text"
 git push
