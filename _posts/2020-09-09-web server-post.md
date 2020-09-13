@@ -11,7 +11,7 @@ tags: web
 
 
 <h2 id="static-pages와-dynamic-pages">정적페이지와 동적페이지</h2>
-<img src="/images/web/static-vs-dynamic.png" width="450px" height="300px" title="50px" alt="RubberDuck"></img>
+<img src="/images/web/static-vs-dynamic.png" alt="">
 
 <ol>
   <li>정적페이지
@@ -19,7 +19,7 @@ tags: web
       <li>Web Server는 파일 경로 이름을 받아 경로와 일치하는 file contents를 반환한다.</li>
       <li>항상 동일한 페이지를 반환한다.</li>
       <li>Ex) image, html, css, javascript 파일과 같이 컴퓨터에 저장되어 있는 파일들</li>
-    </ul>
+    </ul> 
   </li>
   <li>동적페이지
     <ul>
@@ -34,7 +34,7 @@ tags: web
 </ol>
 
 <h2 id="web-server와-was의-차이">Web Server와 WAS의 차이</h2>
-<p><img src="./images/web/webserver-vs-was1.png" alt="" /></p>
+<p><img src="/images/web/webserver-vs-was1.png" alt="" /></p>
 <h3 id="web-server">Web Server</h3>
 <ul>
   <li>Web Server의 개념
@@ -119,7 +119,6 @@ tags: web
 </ul>
 
 <h3 id="web-server와-was를-구분하는-이유">Web Server와 WAS를 구분하는 이유</h3>
-<p><img src="/images/web/webserver-vs-was2.png" alt="" /></p>
 <ul>
   <li><strong>Web Server가 필요한 이유?</strong>
     <ul>
@@ -145,61 +144,10 @@ tags: web
       <li>따라서 WAS를 통해 요청에 맞는 데이터를 DB에서 가져와서 비즈니스 로직에 맞게 그때 그때 결과를 만들어서 제공함으로써 자원을 효율적으로 사용할 수 있다.</li>
     </ul>
   </li>
-  <li><strong>그렇다면 WAS가 Web Server의 기능도 모두 수행하면 되지 않을까?</strong>
-    <ol>
-      <li>기능을 분리하여 서버 부하 방지
-        <ul>
-          <li>WAS는 DB 조회나 다양한 로직을 처리하느라 바쁘기 때문에 단순한 정적 컨텐츠는 Web Server에서 빠르게 클라이언트에 제공하는 것이 좋다.</li>
-          <li>WAS는 기본적으로 동적 컨텐츠를 제공하기 위해 존재하는 서버이다.</li>
-        </ul>
-        <ul>
-          <li>만약 정적 컨텐츠 요청까지 WAS가 처리한다면 정적 데이터 처리로 인해 부하가 커지게 되고, 동적 컨텐츠의 처리가 지연됨에 따라 수행 속도가 느려진다.</li>
-          <li>즉, 이로 인해 페이지 노출 시간이 늘어나게 될 것이다.</li>
-        </ul>
-      </li>
-      <li>물리적으로 분리하여 보안 강화
-        <ul>
-          <li>SSL에 대한 암복호화 처리에 Web Server를 사용</li>
-        </ul>
-      </li>
-      <li>여러 대의 WAS를 연결 가능
-        <ul>
-          <li>Load Balancing을 위해서 Web Server를 사용</li>
-          <li>fail over(장애 극복), fail back 처리에 유리</li>
-          <li>특히 대용량 웹 어플리케이션의 경우(여러 개의 서버 사용) Web Server와 WAS를 분리하여 무중단 운영을 위한 장애 극복에 쉽게 대응할 수 있다.</li>
-          <li>예를 들어, 앞 단의 Web Server에서 오류가 발생한 WAS를 이용하지 못하도록 한 후 WAS를 재시작함으로써 사용자는 오류를 느끼지 못하고 이용할 수 있다.</li>
-        </ul>
-      </li>
-      <li>여러 웹 어플리케이션 서비스 가능
-        <ul>
-          <li>예를 들어, 하나의 서버에서 PHP Application과 Java Application을 함께 사용하는 경우</li>
-        </ul>
-      </li>
-      <li>기타
-        <ul>
-          <li>접근 허용 IP 관리, 2대 이상의 서버에서의 세션 관리 등도 Web Server에서 처리하면 효율적이다.</li>
-        </ul>
-      </li>
-    </ol>
-  </li>
-  <li>즉, <span style="background-color: #e1e1e1">자원 이용의 효율성 및 장애 극복, 배포 및 유지보수의 편의성</span> 을 위해 Web Server와 WAS를 분리한다.</li>
-  <li><strong><em>Web Server를 WAS 앞에 두고 필요한 WAS들을 Web Server에 플러그인 형태로 설정하면 더욱 효율적인 분산 처리가 가능하다.</em></strong></li>
 </ul>
 
 <h2 id="web-service-architecture">Web Service Architecture</h2>
-<ul>
-  <li>다양한 구조를 가질 수 있다.
-    <ol>
-      <li>Client -&gt; Web Server -&gt; DB</li>
-      <li>Client -&gt; WAS -&gt; DB</li>
-      <li>Client -&gt; Web Server -&gt; WAS -&gt; DB</li>
-    </ol>
-  </li>
-</ul>
-
-<p><img src="/images/web/web-service-architecture.png" alt="" /></p>
-
-<p>3번 구조의 동작과정</p>
+<p>Client -&gt; Web Server -&gt; WAS -&gt; DB</p>
 <ol>
   <li>Web Server는 웹 브라우저 클라이언트로부터 HTTP 요청을 받는다.</li>
   <li>Web Server는 클라이언트의 요청(Request)을 WAS에 보낸다.</li>
