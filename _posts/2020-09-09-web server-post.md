@@ -10,7 +10,7 @@ tags: web
 <strong>Web Server와 WAS 무엇이 다른가?</strong><br>
 
 
-<h2 id="static-pages와-dynamic-pages">정적페이지와 동적페이지</h2>
+<h4 id="static-pages와-dynamic-pages">정적페이지와 동적페이지</h4>
 <img src="/images/web/static-vs-dynamic.png" width="50%" height="50%" alt="">
 
 <ol>
@@ -33,7 +33,7 @@ tags: web
   </li>
 </ol>
 
-<h2 id="web-server와-was의-차이">Web Server와 WAS의 차이</h2>
+<h4 id="web-server와-was의-차이">Web Server와 WAS의 차이</h4>
 <p><img src="/images/web/webserver-vs-was1.png" width="50%" height="50%" alt="" /></p>
 <h3 id="web-server">Web Server</h3>
 <ul>
@@ -78,7 +78,7 @@ tags: web
   </li>
 </ul>
 
-<h3 id="wasweb-application-server">WAS(Web Application Server)</h3>
+<h4 id="wasweb-application-server">WAS(Web Application Server)</h4>
 <ul>
   <li>WAS의 개념
     <ul>
@@ -118,7 +118,7 @@ tags: web
   </li>
 </ul>
 
-<h3 id="web-server와-was를-구분하는-이유">Web Server와 WAS를 구분하는 이유</h3>
+<h4 id="web-server와-was를-구분하는-이유">Web Server와 WAS를 구분하는 이유</h4>
 <ul>
   <li><strong>Web Server가 필요한 이유?</strong>
     <ul>
@@ -146,7 +146,7 @@ tags: web
   </li>
 </ul>
 
-<h2 id="web-service-architecture">Web Service Architecture</h2>
+<h4 id="web-service-architecture">Web Service Architecture</h4>
 <p>Client -&gt; Web Server -&gt; WAS -&gt; DB</p>
 <ol>
   <li>Web Server는 웹 브라우저 클라이언트로부터 HTTP 요청을 받는다.</li>
