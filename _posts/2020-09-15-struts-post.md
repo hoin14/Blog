@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "[FrameWork] Struts FrameWork"
+title:  "[Java] Struts FrameWork"
 date:   2020-09-15 02:59:13 +0800
-categories: FrameWork
-tags: framework
+categories: Java
+tags: java
 ---
 
 스트럿츠 프레임워크의 구조와 사용하는 이유에 대해 알아보자.<br>
